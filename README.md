@@ -1,4 +1,4 @@
-# Artificial Intelligence — Semester 2 (2024/2025 Genap)
+# Artificial Intelligence - Semester 2 (2024/2025 Genap)
 
 Kumpulan tugas praktikum dan implementasi algoritma mata kuliah **Artificial Intelligence** menggunakan Python.
 
