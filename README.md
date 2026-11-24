@@ -18,7 +18,15 @@ Kumpulan tugas praktikum dan implementasi algoritma mata kuliah *Artificial Inte
 | 06 | `06-knn-classification-iris-dataset.ipynb` | K-Nearest Neighbors (KNN) & StandardScaler | Klasifikasi multi-kelas dataset *Iris* (`iris.csv`) dengan *feature scaling* (`StandardScaler`), evaluasi nilai $k$ (`1, 3, 5, 7, 9`) melalui *confusion matrix* dan *classification report* (akurasi **0,97**–**1,00**), serta visualisasi akurasi vs $k$. |
 | 07 | `07_uas_heart_disease_classification_nb_knn.ipynb` | Heart Disease Prediction (Naive Bayes vs. KNN) | Klasifikasi biner risiko penyakit jantung pada *dataset* UCI Cleveland menggunakan rasio *split* 60:40, 70:30, dan 80:20; Naive Bayes unggul dengan akurasi tertinggi 0.9167 pada *split* 80:20. |
 
-### Proyek UAS — Heart Disease Prediction (Naive Bayes vs. KNN)
+
+## Proyek Evaluasi (UTS & UAS)
+
+### 1. Proyek UTS — Gender Classification (Naive Bayes vs. KNN)
+* **Notebook:** [`uts_gender_classification_nb_knn.ipynb`](./uts_gender_classification_nb_knn.ipynb)
+* **Dataset:** `gender_classification.csv` (analisis statistik deskriptif, eksplorasi fitur, dan pembagian data latih/uji dengan `train_test_split`).
+* **Algoritma & Evaluasi:** Mengimplementasikan dan membandingkan model **Gaussian Naive Bayes** (`GaussianNB`) dan **K-Nearest Neighbors** (`KNeighborsClassifier`), dievaluasi menggunakan **Accuracy**, **Classification Report** (Precision, Recall, F1-Score), serta **Confusion Matrix**.
+
+### 2. Proyek UAS — Heart Disease Prediction (Naive Bayes vs. KNN)
 * **Notebook:** [`uas_heart_disease_classification_nb_knn.ipynb`](./uas_heart_disease_classification_nb_knn.ipynb)
 * **Dataset:** [UCI Machine Learning Repository — Heart Disease Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease) (subset Cleveland Clinic Foundation, 303 sampel awal, 14 fitur; target `num` diubah menjadi biner `0` dan `1`).
 * **Pra-pemrosesan:** Menghapus nilai hilang (`?`) dengan `dropna()`, serta menormalisasi fitur dengan `StandardScaler` untuk model KNN.
